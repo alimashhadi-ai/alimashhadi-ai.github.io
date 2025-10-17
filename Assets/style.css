@@ -249,6 +249,10 @@ footer {
   text-align: center;
 }
 
+section[id] {
+  scroll-margin-top: 80px;
+}
+
 /* Responsive */
 @media (max-width: 980px) {
   .hero {
