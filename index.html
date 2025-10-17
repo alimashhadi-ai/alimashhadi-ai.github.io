@@ -2,42 +2,132 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Ali | AI/ML Engineer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <style>
-    body{font-family:system-ui,Arial,sans-serif;max-width:860px;margin:40px auto;padding:0 16px;line-height:1.6}
-    header{display:flex;justify-content:space-between;align-items:center}
-    nav a{margin-left:16px;text-decoration:none}
-    .tag{display:inline-block;padding:2px 8px;border:1px solid #ddd;border-radius:999px;font-size:12px}
-    footer{margin-top:48px;font-size:14px;color:#666}
-  </style>
+  <title>Ali Hassandokht — Portfolio</title>
+  <meta name="description" content="AI/ML Engineer & Full‑Stack Developer — projects, dashboards, and notes." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-  <header>
-    <h1>Ali Mashhadi — AI/ML Engineer</h1>
-    <nav>
-      <a href="#projects">Projects</a>
-      <a href="#papers">Papers</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+  <nav class="nav">
+    <div class="container bar">
+      <div class="brand"><div class="logo">AH</div> Ali Hassandokht</div>
+      <div class="links">
+        <a href="#skills">Skills</a>
+        <a href="#genai">Gen AI</a>
+        <a href="#transport">Transport/YOLO</a>
+        <a href="#dataeng">Data Engineering</a>
+        <a href="#datasci">Data Science</a>
+        <a href="#dash">Dashboards</a>
+        <a href="#library">Library</a>
+      </div>
+      <a class="cta" href="#contact">Contact Me</a>
+    </div>
+  </nav>
 
-  <p class="tag">Utah • AI/ML • Machine Learning • Data Science</p>
+  <main class="container">
+    <div class="hero">
+      <section class="panel">
+        <span class="tag">Utah • AI/ML • Full‑Stack • Transportation Safety</span>
+        <h1>Hi, I'm Ali</h1>
+        <p>AI/ML engineer and full‑stack developer focused on building production systems that matter. From CTGAN‑augmented crash‑severity models and RL for variable speed limits to YOLO asset detection and Angular/Django dashboards, I like turning research into shippable tools.</p>
+        <div>
+          <a class="btn primary" href="#" id="resumeLink">View Resume</a>
+          <a class="btn" href="#contact">Contact Me</a>
+        </div>
+        <div class="social">
+          <a aria-label="GitHub" href="https://github.com/your-username" target="_blank" rel="noreferrer">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.4c.6.11.82-.26.82-.58l-.01-2.04c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.35-1.76-1.35-1.76-1.1-.75.08-.74.08-.74 1.22.09 1.86 1.26 1.86 1.26 1.08 1.85 2.84 1.32 3.53 1.01.11-.79.42-1.32.76-1.62-2.66-.3-5.46-1.33-5.46-5.93 0-1.31.47-2.38 1.25-3.22-.13-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.65.25 2.87.12 3.17.78.84 1.25 1.9 1.25 3.22 0 4.61-2.8 5.62-5.47 5.92.43.37.81 1.1.81 2.22l-.01 3.29c0 .32.22.69.82.58A12 12 0 0 0 12 .5Z"/></svg>
+          </a>
+          <a aria-label="LinkedIn" href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noreferrer">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8.5h4V23h-4zM8.5 8.5h3.8v1.97h.05c.53-1 1.84-2.05 3.78-2.05 4.05 0 4.8 2.67 4.8 6.15V23h-4v-6.53c0-1.56-.03-3.56-2.17-3.56-2.17 0-2.5 1.7-2.5 3.45V23h-4V8.5z"/></svg>
+          </a>
+        </div>
+      </section>
+      <section class="panel yellow imgbox" aria-label="portrait">
+        <!-- Optional: drop your own image into /assets/hero.jpg and replace below -->
+        <!-- <img src="assets/hero.jpg" alt="Ali portrait" loading="lazy"/> -->
+      </section>
+    </div>
 
-  <h2 id="projects">Projects</h2>
-  <ul>
-    <li>Work-Zone Crash Severity (CTGAN + XGBoost)</li>
-    <li>Variable Speed Limit (DQN)</li>
-    <li>Roadway asset detection (YOLO)</li>
-  </ul>
+    <section id="skills">
+      <h2>Skills</h2>
+      <p class="section-intro">Core tools and platforms I use in real projects.</p>
+      <div class="kpi">
+        <div class="box">Python · TensorFlow · scikit‑learn</div>
+        <div class="box">Angular · React‑Native · Django · Postgres</div>
+        <div class="box">Docker Compose · CI/CD · Vercel</div>
+        <div class="box">YOLO · CV · RL (DQN)</div>
+        <div class="box">ETL · Looker Studio · Dashboards</div>
+      </div>
+    </section>
 
-  <h2 id="papers">Selected Papers</h2>
-  <p>Short blurb + links.</p>
+    <section id="genai">
+      <h2>Gen AI Projects</h2>
+      <div class="grid">
+        <article class="card"><h3>Chatbot with LangChain</h3><p>Local tools LLM assistant with custom tools and prompt chaining.</p><span class="pill">LangChain</span> <span class="pill">Python</span></article>
+        <article class="card"><h3>Resume QA Assistant</h3><p>RAG over portfolio docs; deploy via Vercel Functions.</p><span class="pill">RAG</span> <span class="pill">Vercel</span></article>
+        <article class="card"><h3>Image‑to‑Spec Notes</h3><p>Extract roadway asset specs from field photos.</p><span class="pill">Vision</span> <span class="pill">YOLO</span></article>
+      </div>
+    </section>
 
-  <h2 id="contact">Contact</h2>
-  <p>Email: you@domain.com • GitHub: @your-username • LinkedIn</p>
+    <section id="transport">
+      <h2>Transport / Computer Vision</h2>
+      <div class="grid">
+        <article class="card"><h3>Work‑Zone Crash Severity</h3><p>CTGAN‑augmented dataset; XGBoost + calibrated thresholds.</p><span class="pill">CTGAN</span> <span class="pill">XGBoost</span></article>
+        <article class="card"><h3>Variable Speed Limit (DQN)</h3><p>Simulation‑trained policy; safety‑aware reward shaping.</p><span class="pill">Reinforcement Learning</span></article>
+        <article class="card"><h3>Roadway Asset Detection</h3><p>YOLOv5/8 training for medians/lanes; exportable to ONNX.</p><span class="pill">YOLO</span></article>
+      </div>
+    </section>
 
-  <footer>© <span id="y"></span> Ali</footer>
-  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+    <section id="dataeng">
+      <h2>Data Engineering Projects</h2>
+      <div class="grid">
+        <article class="card"><h3>ETL for UDOT Datasets</h3><p>Python pipelines; validation checks; warehouse to Postgres.</p><span class="pill">Python</span> <span class="pill">DBT‑like</span></article>
+        <article class="card"><h3>Dash Data API</h3><p>Django REST endpoints with auth; cached aggregations.</p><span class="pill">Django</span> <span class="pill">Postgres</span></article>
+        <article class="card"><h3>Infra as Code (Compose)</h3><p>Postgres + Celery + RabbitMQ dev stack with profiles.</p><span class="pill">Docker</span></article>
+      </div>
+    </section>
+
+    <section id="datasci">
+      <h2>Data Science Projects</h2>
+      <div class="grid">
+        <article class="card"><h3>Text Classification (CNN+BiLSTM)</h3><p>Keras + scikeras wrappers; hyper‑param search.</p><span class="pill">Keras</span></article>
+        <article class="card"><h3>Risk Models</h3><p>RandomForest/XGBoost with SHAP‑based model cards.</p><span class="pill">Explainability</span></article>
+        <article class="card"><h3>Time‑series Forecasts</h3><p>Feature stores; incremental retraining workflows.</p><span class="pill">MLOps</span></article>
+      </div>
+    </section>
+
+    <section id="dash">
+      <h2>Dashboards</h2>
+      <p class="section-intro">Looker Studio and custom web dashboards supporting agencies and internal ops.</p>
+      <div class="grid">
+        <article class="card"><h3>Trailer Usage</h3><p>Check‑in/out tracking with AppScript; KPIs for utilization.</p><span class="pill">Apps Script</span></article>
+        <article class="card"><h3>Safety KPIs</h3><p>Crash trends, severities, and hotspots.</p><span class="pill">Looker Studio</span></article>
+        <article class="card"><h3>CMP Metrics</h3><p>Congestion measures with tidy definitions and sources.</p><span class="pill">ETL</span></article>
+      </div>
+    </section>
+
+    <section id="library">
+      <h2>Library</h2>
+      <div class="grid">
+        <article class="card"><h3>Writing</h3><p>Short notes and how‑tos (WIP).</p></article>
+        <article class="card"><h3>Papers</h3><p>Selected publications and posters.</p></article>
+        <article class="card"><h3>Talks</h3><p>Slides and demos.</p></article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Want to collaborate or see more? Reach out.</p>
+      <p>Email: <a href="mailto:you@your-domain.com">you@your-domain.com</a></p>
+    </section>
+
+    <footer>© <span id="y"></span> Ali Hassandokht · Built with GitHub Pages</footer>
+  </main>
+
+  <script src="assets/main.js"></script>
 </body>
 </html>
