@@ -4,7 +4,7 @@ if (yearEl) yearEl.textContent = new Date().getFullYear();
 
 // Resume link (edit here)
 const resumeEl = document.getElementById('resumeLink');
-if (resumeEl) resumeEl.href = "assets/Ali_Mashhadi_AIML_Oct25.pdf"; // e.g., 'assets/Ali-Resume.pdf'
+if (resumeEl) resumeEl.href = "Assets/Ali_Mashhadi_AIML_Oct25.pdf"; // e.g., 'assets/Ali-Resume.pdf'
 
 // Highlight active section in nav on scroll
 (function(){
